@@ -9,7 +9,7 @@ public class ContactPostgress {
     public static void main(String[] args) {
         String jbcUrl = "jdbc:postgresql://localhost:5432/shopme";
         String username = "postgres";
-        String password = "0Hilarilaray!";
+        String password = "Password";
 
         try{
         Connection connection = DriverManager.getConnection(jbcUrl, username, password);
